@@ -41,13 +41,16 @@
 			<li>
                 <a href="../contact.php" title="Contact">Contact</a>
 			</li>
-            <?php
-            if ($_SESSION['user_name']){
-                echo "<li><a href='../admin.php'>Admin</a></li>";
-            } else {
-                echo "<li></li>";
-            }
-            ?>
+            <li>
+                <a href="../login.php" title="Login">Login</a>
+            </li>
+<!--            --><?php
+//            if ($_SESSION['user_name']){
+//                echo "<li><a href='../admin.php'>Admin</a></li>";
+//            } else {
+//                echo "<li></li>";
+//            }
+//            ?>
 		</ul>
 	</nav>
     <p id="account">

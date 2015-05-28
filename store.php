@@ -11,6 +11,10 @@ while (list($prod_id,$prod_name,$prod_price,$prod_description,$prod_thumb,$prod_
     echo "<figcaption>" . $prod_name . "</figcaption>";
     echo "</figure>";
 }
-
+?>
+    <div id="news_content">
+        <h1>Content Coming Soon!</h1>
+    </div>
+<?php
 require 'includes/footer.php'
 ?>

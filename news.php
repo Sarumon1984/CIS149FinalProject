@@ -16,7 +16,7 @@ require 'includes/head.php'
         echo '<p>' . substr($content, 0,225) . '...</p>';
     }
     ?>
-
+    <h1>Content Coming Soon!</h1>
 </div>
 <div id="archive">
     <h3>Archived News</h3>
